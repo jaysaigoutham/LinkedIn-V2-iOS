@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA5630C666D3D4C59B7143F /* libPods-LinkedIn-iOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55917A4B9ED30F4046A6EBB1 /* libPods-LinkedIn-iOSUITests.a */; };
+		53DD8F503DEB417D62131A90 /* libPods-LinkedIn-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE96EBA9C344C38D0510F60E /* libPods-LinkedIn-iOSTests.a */; };
+		693C23FC207DAB1C9CF1BC4E /* libPods-LinkedIn-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18948C36302EC9B35A5BD406 /* libPods-LinkedIn-iOS.a */; };
 		6A05A66F22B124CA007977AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A66E22B124CA007977AE /* AppDelegate.m */; };
 		6A05A67222B124CA007977AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A67122B124CA007977AE /* ViewController.m */; };
 		6A05A67522B124CA007977AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A05A67322B124CA007977AE /* Main.storyboard */; };
@@ -15,6 +18,11 @@
 		6A05A67D22B124DB007977AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A67C22B124DB007977AE /* main.m */; };
 		6A05A68722B124DB007977AE /* LinkedIn_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A68622B124DB007977AE /* LinkedIn_iOSTests.m */; };
 		6A05A69222B124DB007977AE /* LinkedIn_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A69122B124DB007977AE /* LinkedIn_iOSUITests.m */; };
+		6A05A6A622B125E1007977AE /* LinkedInHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A6A522B125E1007977AE /* LinkedInHelper.m */; };
+		6A05A6A922B126CE007977AE /* LinkedInServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A6A822B126CE007977AE /* LinkedInServiceManager.m */; };
+		6A05A6AF22B12755007977AE /* LinkedInAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A6AE22B12755007977AE /* LinkedInAuthorizationViewController.m */; };
+		6A05A6B222B128A1007977AE /* LinkedinNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A6B122B128A1007977AE /* LinkedinNavBar.m */; };
+		6A05A6B522B128EE007977AE /* LinkedInConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A6B422B128EE007977AE /* LinkedInConsts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FDBED7CE86B4E34DA680ACD /* Pods-LinkedIn-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedIn-iOS.debug.xcconfig"; path = "Target Support Files/Pods-LinkedIn-iOS/Pods-LinkedIn-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		18948C36302EC9B35A5BD406 /* libPods-LinkedIn-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LinkedIn-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55917A4B9ED30F4046A6EBB1 /* libPods-LinkedIn-iOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LinkedIn-iOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63122E15EB309998278713FB /* Pods-LinkedIn-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedIn-iOS.release.xcconfig"; path = "Target Support Files/Pods-LinkedIn-iOS/Pods-LinkedIn-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		6A05A66A22B124CA007977AE /* LinkedIn-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkedIn-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A05A66D22B124CA007977AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A05A66E22B124CA007977AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,21 @@
 		6A05A68D22B124DB007977AE /* LinkedIn-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkedIn-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A05A69122B124DB007977AE /* LinkedIn_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedIn_iOSUITests.m; sourceTree = "<group>"; };
 		6A05A69322B124DB007977AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A05A6A422B125E1007977AE /* LinkedInHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedInHelper.h; sourceTree = "<group>"; };
+		6A05A6A522B125E1007977AE /* LinkedInHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedInHelper.m; sourceTree = "<group>"; };
+		6A05A6A722B126CE007977AE /* LinkedInServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedInServiceManager.h; sourceTree = "<group>"; };
+		6A05A6A822B126CE007977AE /* LinkedInServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedInServiceManager.m; sourceTree = "<group>"; };
+		6A05A6AD22B12755007977AE /* LinkedInAuthorizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedInAuthorizationViewController.h; sourceTree = "<group>"; };
+		6A05A6AE22B12755007977AE /* LinkedInAuthorizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedInAuthorizationViewController.m; sourceTree = "<group>"; };
+		6A05A6B022B128A1007977AE /* LinkedinNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedinNavBar.h; sourceTree = "<group>"; };
+		6A05A6B122B128A1007977AE /* LinkedinNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedinNavBar.m; sourceTree = "<group>"; };
+		6A05A6B322B128EE007977AE /* LinkedInConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedInConsts.h; sourceTree = "<group>"; };
+		6A05A6B422B128EE007977AE /* LinkedInConsts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedInConsts.m; sourceTree = "<group>"; };
+		8B2B125B0C325442A33A558E /* Pods-LinkedIn-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedIn-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-LinkedIn-iOSUITests/Pods-LinkedIn-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B8AD6CD1B400AACE9545DD /* Pods-LinkedIn-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedIn-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-LinkedIn-iOSTests/Pods-LinkedIn-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5A0E0512A2DA3772A363AE1 /* Pods-LinkedIn-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedIn-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-LinkedIn-iOSTests/Pods-LinkedIn-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE96EBA9C344C38D0510F60E /* libPods-LinkedIn-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LinkedIn-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FF1C602F20BE8E31AF6E75 /* Pods-LinkedIn-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedIn-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-LinkedIn-iOSUITests/Pods-LinkedIn-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693C23FC207DAB1C9CF1BC4E /* libPods-LinkedIn-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DD8F503DEB417D62131A90 /* libPods-LinkedIn-iOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +101,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA5630C666D3D4C59B7143F /* libPods-LinkedIn-iOSUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E91FC287A006291AFB7B831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18948C36302EC9B35A5BD406 /* libPods-LinkedIn-iOS.a */,
+				DE96EBA9C344C38D0510F60E /* libPods-LinkedIn-iOSTests.a */,
+				55917A4B9ED30F4046A6EBB1 /* libPods-LinkedIn-iOSUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A05A66122B124CA007977AE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				6A05A68522B124DB007977AE /* LinkedIn-iOSTests */,
 				6A05A69022B124DB007977AE /* LinkedIn-iOSUITests */,
 				6A05A66B22B124CA007977AE /* Products */,
+				D41216BE9D9BDDB6CF975ECB /* Pods */,
+				1E91FC287A006291AFB7B831 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +143,10 @@
 		6A05A66C22B124CA007977AE /* LinkedIn-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6A05A6A022B1254D007977AE /* Classes */,
+				6A05A69F22B12515007977AE /* StoryBoards */,
 				6A05A66D22B124CA007977AE /* AppDelegate.h */,
 				6A05A66E22B124CA007977AE /* AppDelegate.m */,
-				6A05A67022B124CA007977AE /* ViewController.h */,
-				6A05A67122B124CA007977AE /* ViewController.m */,
-				6A05A67322B124CA007977AE /* Main.storyboard */,
 				6A05A67622B124DB007977AE /* Assets.xcassets */,
 				6A05A67822B124DB007977AE /* LaunchScreen.storyboard */,
 				6A05A67B22B124DB007977AE /* Info.plist */,
@@ -132,6 +173,63 @@
 			path = "LinkedIn-iOSUITests";
 			sourceTree = "<group>";
 		};
+		6A05A69F22B12515007977AE /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				6A05A67322B124CA007977AE /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		6A05A6A022B1254D007977AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A05A6A322B125B2007977AE /* LinkedInManager */,
+				6A05A6A122B1255A007977AE /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A05A6A122B1255A007977AE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A05A67022B124CA007977AE /* ViewController.h */,
+				6A05A67122B124CA007977AE /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6A05A6A322B125B2007977AE /* LinkedInManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A05A6A422B125E1007977AE /* LinkedInHelper.h */,
+				6A05A6A522B125E1007977AE /* LinkedInHelper.m */,
+				6A05A6A722B126CE007977AE /* LinkedInServiceManager.h */,
+				6A05A6A822B126CE007977AE /* LinkedInServiceManager.m */,
+				6A05A6AD22B12755007977AE /* LinkedInAuthorizationViewController.h */,
+				6A05A6AE22B12755007977AE /* LinkedInAuthorizationViewController.m */,
+				6A05A6B022B128A1007977AE /* LinkedinNavBar.h */,
+				6A05A6B122B128A1007977AE /* LinkedinNavBar.m */,
+				6A05A6B322B128EE007977AE /* LinkedInConsts.h */,
+				6A05A6B422B128EE007977AE /* LinkedInConsts.m */,
+			);
+			path = LinkedInManager;
+			sourceTree = "<group>";
+		};
+		D41216BE9D9BDDB6CF975ECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FDBED7CE86B4E34DA680ACD /* Pods-LinkedIn-iOS.debug.xcconfig */,
+				63122E15EB309998278713FB /* Pods-LinkedIn-iOS.release.xcconfig */,
+				C5A0E0512A2DA3772A363AE1 /* Pods-LinkedIn-iOSTests.debug.xcconfig */,
+				B7B8AD6CD1B400AACE9545DD /* Pods-LinkedIn-iOSTests.release.xcconfig */,
+				8B2B125B0C325442A33A558E /* Pods-LinkedIn-iOSUITests.debug.xcconfig */,
+				E4FF1C602F20BE8E31AF6E75 /* Pods-LinkedIn-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A05A69622B124DB007977AE /* Build configuration list for PBXNativeTarget "LinkedIn-iOS" */;
 			buildPhases = (
+				07FAA3C8B9B64C55368274AD /* [CP] Check Pods Manifest.lock */,
 				6A05A66622B124CA007977AE /* Sources */,
 				6A05A66722B124CA007977AE /* Frameworks */,
 				6A05A66822B124CA007977AE /* Resources */,
@@ -156,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A05A69922B124DB007977AE /* Build configuration list for PBXNativeTarget "LinkedIn-iOSTests" */;
 			buildPhases = (
+				C35848681629431CAE45CEE9 /* [CP] Check Pods Manifest.lock */,
 				6A05A67E22B124DB007977AE /* Sources */,
 				6A05A67F22B124DB007977AE /* Frameworks */,
 				6A05A68022B124DB007977AE /* Resources */,
@@ -174,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A05A69C22B124DB007977AE /* Build configuration list for PBXNativeTarget "LinkedIn-iOSUITests" */;
 			buildPhases = (
+				3E5889B420A88984873945DE /* [CP] Check Pods Manifest.lock */,
 				6A05A68922B124DB007977AE /* Sources */,
 				6A05A68A22B124DB007977AE /* Frameworks */,
 				6A05A68B22B124DB007977AE /* Resources */,
@@ -257,14 +358,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07FAA3C8B9B64C55368274AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedIn-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E5889B420A88984873945DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedIn-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35848681629431CAE45CEE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedIn-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A05A66622B124CA007977AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A05A67222B124CA007977AE /* ViewController.m in Sources */,
+				6A05A6A622B125E1007977AE /* LinkedInHelper.m in Sources */,
+				6A05A6AF22B12755007977AE /* LinkedInAuthorizationViewController.m in Sources */,
+				6A05A6B522B128EE007977AE /* LinkedInConsts.m in Sources */,
 				6A05A67D22B124DB007977AE /* main.m in Sources */,
 				6A05A66F22B124CA007977AE /* AppDelegate.m in Sources */,
+				6A05A6A922B126CE007977AE /* LinkedInServiceManager.m in Sources */,
+				6A05A6B222B128A1007977AE /* LinkedinNavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +608,7 @@
 		};
 		6A05A69722B124DB007977AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDBED7CE86B4E34DA680ACD /* Pods-LinkedIn-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +625,7 @@
 		};
 		6A05A69822B124DB007977AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63122E15EB309998278713FB /* Pods-LinkedIn-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +642,7 @@
 		};
 		6A05A69A22B124DB007977AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A0E0512A2DA3772A363AE1 /* Pods-LinkedIn-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +661,7 @@
 		};
 		6A05A69B22B124DB007977AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B8AD6CD1B400AACE9545DD /* Pods-LinkedIn-iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +680,7 @@
 		};
 		6A05A69D22B124DB007977AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2B125B0C325442A33A558E /* Pods-LinkedIn-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "LinkedIn-iOSUITests/Info.plist";
@@ -518,6 +698,7 @@
 		};
 		6A05A69E22B124DB007977AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FF1C602F20BE8E31AF6E75 /* Pods-LinkedIn-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "LinkedIn-iOSUITests/Info.plist";
